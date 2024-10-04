@@ -29,10 +29,6 @@ def run():
         return_data.append(f"Total loves: {stats['loves']}")
         return_data.append(f"Total favorites: {stats['favorites']}")
         return_data.append(f"Total views: {stats['views']}")
-    
-        return return_data
-    
-    client.run() #make sure this is ALWAYS at the bottom of your Python file
 
 
 
